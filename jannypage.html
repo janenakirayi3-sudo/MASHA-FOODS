@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASH FOODS</title>
+    <link rel="stylesheet" href="masha.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="IMAGES/logo.jpeg" alt="">
+
+    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Review</a>
+    </nav>
+    <div class="banner">
+        <img src="IMAGES/banner.jpeg" alt="">
+    </div>
+    <main>
+        <article>
+            <h2>WELCOME TO</h2>
+            <H1>MASHA FOODS</H1>
+            <P>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque deleniti consectetur a facere modi,
+                excepturi perferendis eum nobis maxime, labore accusamus pariatur vero temporibus ipsam sequi itaque
+                nostrum illum odit.
+            </P>
+        </article>
+        <div class="dine">
+            <span class="dine-image">
+                <img src="IMAGES/image 5.jpeg" alt="">
+
+            </span>
+            <span class="text">
+             <H2>DINE WITH US</H2>
+             <P>We have listened to you and here wr are.our local foods on our menue today right here .we wont hesitate giving you what you desever at our restrant
+
+             </P>
+             <P>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima fugit corporis eaque consectetur quasi aliquam praesentium, consequuntur earum odit? Dolores praesentium amet ut ipsum quaerat corporis mollitia distinctio sequi excepturi?
+             </P>
+            </span>
+        </div>
+    </main>
+    <div class="delivery">
+        <span class="text">
+        <H2>WE DO DELIVERY</H2>
+        <P>We listened/ to you and here we are.our local food on our menu today right here.We wont hesitate giving you what you deserve at our restaurant. </P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolores dolorem consectetur nemo provident autem minima reprehenderit hic mollitia, consequuntur officiis blanditiis expedita neque id! Officia ut ex adipisci cumque.</p>
+    
+        </span>
+        <span>
+            <img src="IMAGES/image4.jpeg" alt="">
+        </span>
+    </div>
+    <main>
+        <div><i class="menu">
+            <h2>OUR FEATURED MENU</h2>
+                <div class="menu-grind>"
+                 <img class="ph card" src="IMAGES/image 6.jpeg"alt="Burger on a wooden board">
+                 <img   class="ph card" src="IMAGES/image7.jpeg" alt="Plated dish">
+                 <img class="ph card" src="IMAGES/image 8.jpeg" alt="[Pizza">
+                 </div>
+                 </section>
+
+                 <section class="reviews" id="reviews"
+                  <div>
+                     <h3>Leave a Review</h3>
+                     <form id="reviewform">
+                        <input id="rName" type="text"placeholder="your Name"required>
+                         <input id="rEmail" type="email" placeholder="Your Email"required>
+                         <textarea id="rText"placeholder="Your Review"required></textarea>
+                         <button type="submit">submit>/button>
+                         </form>
+                         </div>
+                         <div>
+                            </section>
+                        </footer>
+                          <b>Contact Details</b>
+                          Vist us in Bugoloobi or call +2564321230 for inquiries, orders or deliveries.<br>
+                    </footer>
+                    <script>
+                        //When the form is submitted, add the review ti the top of the list
+                        document.gerElementById('reviewForm').addEventListenner('submit',function(e){
+                            e.preventDefault();                     //stop the page reloading
+                            var box=document.createElement('div')    //make a new review block                        })
+                            box.className='review';
+                            var name=document.createElement('b')
+                            name.textContent=document.getElementById(rName).value;
+                            var text= document.createElement('p');
+                            text.textContent=document.getElementById('rText').value;
+                            box.appendChild(name); box .appendChild(text);
+                            document.getElementById('reviewList').prepend(box)  //show it first
+                            this.reset();                                       // clear the form
+                        });
+
+
+                    </script>
+
+
+                 
+                 
+                       
+                       
+                       
+                    
+                       
+                
+        
+     
+                      
+                        
+                        
+                    
+                    
+
+                
+
+        
+    
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+*{
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.banner{
+    width: 100%;
+}
+
+
+.banner img{
+    width: 100%;
+}
+.logo img{
+    height: 6rem;
+    width: 5.5rem;
+}
+.logo{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+article{
+    background-color: rgb(2, 2, 80);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.dine{
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+}
+
+
+.delivery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.delivery span{
+    width: 50%;
+}
+
+.dine-image{
+    margin-right: 3rem;
+}
+ .text{
+    text-align: center;
+ }
+ .featured -menu{
+    background-color: #fbf3fbfb;
+    padding: 40px 5%;
+    text-align: center;
+ }
+ .featured-menu h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #111;
+
+ }
+ .menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+ }
+ .menu-container img{
+    width: 30%;
+    height: 145PX;
+    object-fit: cover;
+    border-radius: 12px;
+ }
+ /*REVIEW FORM */
+ .reviews-sections{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 10%;
+    background-color: white;
+ }
+ /*REVIEW FORM*/
+ .review-form{
+    width:50%
+ }
+ .review-form h2,
+ .review-list h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+ }
+
+ .review-form input,
+ .review-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 6px;
+    border: 1px solid #aaa;
+    font-family: Arial, sans-serif;
+ }
+ .review-form button {
+    padding: 7px 20px;
+    border: 1px solid #999;
+    cursor: pointer;
+ }
+ /*CUSTOMER REVIEWS */
+ .review-list {
+    width: 50%;
+ }
+
+ .review h4{
+    font-size: 14px;
+    margin-bottom: 8px;
+ }
+ .review p {
+    font-size: 13px;
+    line-height: 1.5;
+ }
+ /*FOOTER SECTION*/
+ footer {
+    background-color: #fbf3df;
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 13px;
+ }
+ footer h3 {
+    font: size 17px;
+    margin-bottom: 5px;
+ }
+ footer p {
+    margin: 5px 0;
+ }
+ @media  screen and(max-width:768px) 
+ .menu-container{
+    flex-direction:colum;
+    
+ }
+ .menu-container img{
+    width: 90%;
+    height: auto;
+ }
+ .reviews-sections{
+    flex-direction: column;
+    padding: 30px 7%;
+
+ }
+ .review-form,
+.review-list{
+    width: 100%;
+}
+}
+
+
